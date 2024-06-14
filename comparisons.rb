@@ -33,16 +33,18 @@ puts "Is number_teachers equal to string_teachers?", number_teachers == number_s
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+puts "Is number_students less than or equal to 20?", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,10 +56,13 @@ puts "Is number_teachers equal to string_teachers?", number_teachers == number_s
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
+# I am comparing 4 and 9, by using the puts method : Is 4 less than 9? True
 #YOU DO: Explain.
 
 books = 3
 puts 4 < books
+# We have a variable for books, there are 3 books, on line 64 I am calling the method puts that contains 4 is less than 3(books)
+#False
 # YOU DO: Explain.
 
 friends = 6
