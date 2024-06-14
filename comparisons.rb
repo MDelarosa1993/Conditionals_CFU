@@ -1,118 +1,118 @@
-# # In the exercises below, write your own code where indicated
-# # to achieve the desired result.
+# In the exercises below, write your own code where indicated
+# to achieve the desired result.
 
-# # One example is already completed. Your task is to complete
-# # any remaining prompt.
+# One example is already completed. Your task is to complete
+# any remaining prompt.
 
-# # Make sure to run the file in your command line. Look back
-# # at the directions from Section 1 if you need a refresher on how to do that.
+#  Make sure to run the file in your command line. Look back
+#  at the directions from Section 1 if you need a refresher on how to do that.
 
 
-# #-------------------
-# # PART 1: Comparing variables
-# #-------------------
+# -------------------
+#  PART 1: Comparing variables
+# -------------------
 
-# number_teachers = 4
-# number_students = 20
-# string_teachers = "4"
-# numberDogs = 0
+ number_teachers = 4
+ number_students = 20
+ string_teachers = "4"
+ numberDogs = 0
 
-# # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-# # puts "Is number_teachers greater than number_students?", number_teachers > number_students
-# # this should print: "Is numberTeachers greater than numberStudents?" false
+#  EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
+#  puts "Is number_teachers greater than number_students?", number_teachers > number_students
+#  this should print: "Is numberTeachers greater than numberStudents?" false
 
-# # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-# # this should print: true
-# puts "Is number_teachers less than number_students?", number_teachers < number_students
+#  YOU DO: print the result of the comparison: is number_teachers less than number_students?
+# this should print: true
+ puts "Is number_teachers less than number_students?", number_teachers < number_students
 
-# # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-# # this should print: false
-# puts "Is number_teachers equal to string_teachers?", number_teachers == number_students
-# # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-# # this should print: true
+#  YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+#  this should print: false
+ puts "Is number_teachers equal to string_teachers?", number_teachers == number_students
+#  YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+#  this should print: true
 
-# # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# # this should print: true
-# puts "Is number_students greater than or equal to 20?", number_students >= 20
+#  YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+#  this should print: true
+ puts "Is number_students greater than or equal to 20?", number_students >= 20
 
-# # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# # this should print: false
-# puts "Is number_students greater than or equal to 21?", number_students >= 21
+#  YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+#  this should print: false
+ puts "Is number_students greater than or equal to 21?", number_students >= 21
 
-# # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# # this should print: true
-# puts "Is number_students less than or equal to 20?", number_students <= 20
-# # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# # this should print: true
-# puts "Is number_students less than or equal to 21?", number_students <= 21
+#  YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+#  this should print: true
+ puts "Is number_students less than or equal to 20?", number_students <= 20
+#  YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+#  this should print: true
+ puts "Is number_students less than or equal to 21?", number_students <= 21
 
-# #-------------------
-# # PART 2: Articulating what you are doing
-# #-------------------
+# -------------------
+#  PART 2: Articulating what you are doing
+# -------------------
 
-# # For the following prompts, you will be given a line of code and your task is to type out a Comment,
-# # in English, explaining what that line of code is doing, including what the comparison will evaluate to.
-# # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
-# # Make sure YOU can explain it that way!
+#  For the following prompts, you will be given a line of code and your task is to type out a Comment,
+#  in English, explaining what that line of code is doing, including what the comparison will evaluate to.
+#  Be as technically precise as possible, but don't just copy and paste a definition from the readings.
+#  Make sure YOU can explain it that way!
 
-# puts 4 < 9
-# # I am comparing 4 and 9, by using the puts method : Is 4 less than 9? True
-# #YOU DO: Explain.
+ puts 4 < 9
+#  I am comparing 4 and 9, by using the puts method : Is 4 less than 9? True
+# YOU DO: Explain.
 
-# books = 3
-# puts 4 < books
-# # We have a variable for books, there are 3 books, on line 63 I am calling the method puts that contains 4 is less than 3(books)
-# #False
-# # YOU DO: Explain.
+ books = 3
+ puts 4 < books
+#  We have a variable for books, there are 3 books, on line 63 I am calling the method puts that contains 4 is less than 3(books)
+# False
+#  YOU DO: Explain.
 
-# friends = 6
-# siblings = 2
-# puts friends > siblings
-# # So we have two variables that are friends and siblings, friends is assigned the integer 6, siblings is assigned
-# # the integer 2. We are calling the condition : friends is greater than siblings? The answer is True
-# # YOU DO: Explain.
+ friends = 6
+ siblings = 2
+ puts friends > siblings
+#  So we have two variables that are friends and siblings, friends is assigned the integer 6, siblings is assigned
+#  the integer 2. We are calling the condition : friends is greater than siblings? The answer is True
+#  YOU DO: Explain.
 
-# attendees = 9
-# meals = 8
-# puts attendees != meals
-# # Variables, attendees and meals have been assigned integers, attendees = 9, and meals = 8
-# # We are going to call the condition : attendees is NOT equal to meals by using the puts method
-# # True
-# # YOU DO: Explain.
+ attendees = 9
+ meals = 8
+ puts attendees != meals
+#  Variables, attendees and meals have been assigned integers, attendees = 9, and meals = 8
+# We are going to call the condition : attendees is NOT equal to meals by using the puts method
+#  True
+#  YOU DO: Explain.
 
-# #-------------------
-# # PART 3: Logical Operators
-# #-------------------
+# -------------------
+#  PART 3: Logical Operators
+# -------------------
 
-# is_hungry = true
-# finished_homework = false
+ is_hungry = true
+ finished_homework = false
 
-# # EXAMPLE:
-# # Determine if the user is hungry and has completed their homework
-# puts is_hungry && finished_homework
-# # This logical operator is false, both need to be true
-# # User is hungry but has not completed homework
-# # Determine if the user is hungry or has completed their homework
-# puts is_hungry || finished_homework
-# # The logical operator is true, only one need to be true
-# # User is hungry but has completed homework
+#  EXAMPLE:
+#  Determine if the user is hungry and has completed their homework
+ puts is_hungry && finished_homework
+#  This logical operator is false, both need to be true
+#  User is hungry but has not completed homework
+# Determine if the user is hungry or has completed their homework
+ puts is_hungry || finished_homework
+#  The logical operator is true, only one need to be true
+# User is hungry but has completed homework
 
 loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
 
-# # YOU DO:
-# # Determine if the dog loves to play and loves treats
-# puts loves_to_play && loves_treats
-# # True, Loves both
+# #YOU DO:
+#  Determine if the dog loves to play and loves treats
+ puts loves_to_play && loves_treats
+#  True, Loves both
 
-# # Determine if the dog loves to play and loves the dog park
-# puts loves_to_play && loves_dog_park
-# # False, Only loves to play
-# # Determine if the dog loves to play or loves the dog park
-# puts loves_to_play || loves_dog_park
-# # True, only loves to play
+#  Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
+# #False, Only loves to play
+#  Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
+#  True, only loves to play
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
