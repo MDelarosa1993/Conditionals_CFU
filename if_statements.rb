@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-weather = "sunny"
+weather = "icy"
 
 if weather == "sunny"
   p "sunscreen"
@@ -24,42 +24,42 @@ else
   p "good to go!"
 end
 
-# Experiment with manipulating the value held in variable 'weather'
-# to print something other than 'sunscreen'
+# # Experiment with manipulating the value held in variable 'weather'
+# # to print something other than 'sunscreen'
 
 
-##################
-# Using the num_quarters variable defined below, determine
-# if you have enough money to buy a gumball. A gumball costs
-# two quarters.
+# ##################
+# # Using the num_quarters variable defined below, determine
+# # if you have enough money to buy a gumball. A gumball costs
+# # two quarters.
 
-# Right now, the program will print
-# out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
-# conditional statement that prints only one or the other.
+# # Right now, the program will print
+# # out both "I have enough money for a gumball" and
+# # "I don't have enough money for a gumball". Write a 
+# # conditional statement that prints only one or the other.
 
-# Experiment with manipulating the value held within num_quarters
-# to make sure both conditions can be achieved.
+# # Experiment with manipulating the value held within num_quarters
+# # to make sure both conditions can be achieved.
 
-num_quarters = 0
+# num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+# puts "I have enough money for a gumball"
+# puts "I don't have enough money for a gumball"
 
 
-#####################
-# Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
-# at least two cups of flour and sauce.
+# #####################
+# # Using the variables defined below, write code that will tell you
+# # if you have the ingredients to make a pizza. A pizza requires 
+# # at least two cups of flour and sauce.
 
-# You should be able to change the variables to achieve the following outputs:
-# If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
-# If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
-# If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
-# If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
+# # You should be able to change the variables to achieve the following outputs:
+# # If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
+# # If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
+# # If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
+# # If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
 
-# Experiment with manipulating the value held within both variables
-# to make sure all above conditions output what you expect.
+# # Experiment with manipulating the value held within both variables
+# # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
-has_sauce = true
+# cups_of_flour = 1
+# has_sauce = true
